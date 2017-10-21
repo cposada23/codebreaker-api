@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha --reporter spec test/**/*.js",
-    "coverage": "./node_modules/nyc/bin/nyc.js report spec test/**/*.js --reporter=text-lcov > coverage.lcov && codecov -t 2a037e35-7115-49c1-b90c-cae61f0ceac6"
+    "coverage": "./node_modules/nyc/bin/nyc.js report  --reporter=text-lcov > coverage.lcov && codecov -t 2a037e35-7115-49c1-b90c-cae61f0ceac6"
   },
   "author": "Camilo Posada Angel a",
   "license": "ISC",
