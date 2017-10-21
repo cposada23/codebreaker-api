@@ -7,7 +7,7 @@
     "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha --reporter spec test/**/*.js",
     "coverage": "./node_modules/nyc/bin/nyc.js report --reporter=text-lcov > coverage.lcov && codecov"
   },
-  "author": "",
+  "author": "Camilo Posada Angel,
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
